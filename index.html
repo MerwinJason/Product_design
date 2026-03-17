@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Design — Interactive Learning Hub</title>
+    <meta name="description" content="Master Product Design with interactive sessions, quizzes, games, and AI-powered Q&A.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particle canvas bg -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-icon">🎨</span>
+                <span class="logo-text">Product<br><small>Design</small></span>
+            </div>
+            <button id="sidebarClose" class="sidebar-close">✕</button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" data-section="dashboard" class="nav-link active"><span class="nav-icon">📊</span> Dashboard</a></li>
+            <li><a href="#" data-section="session1" class="nav-link"><span class="nav-icon">📖</span> S1: Intro to PD</a></li>
+            <li><a href="#" data-section="session2" class="nav-link"><span class="nav-icon">✏️</span> S2: Design Process</a></li>
+            <li><a href="#" data-section="session3" class="nav-link"><span class="nav-icon">🏗️</span> S3: Material Select</a></li>
+            <li><a href="#" data-section="session4" class="nav-link"><span class="nav-icon">⚙️</span> S4: Manuf. Processes</a></li>
+            <li><a href="#" data-section="session5" class="nav-link"><span class="nav-icon">📐</span> S5: DFMA Intro</a></li>
+            <li><a href="#" data-section="session6" class="nav-link"><span class="nav-icon">♻️</span> S6: Sustainability</a></li>
+            <li><a href="#" data-section="session7" class="nav-link"><span class="nav-icon">💡</span> S7: Advanced PD</a></li>
+            <li><a href="#" data-section="session8" class="nav-link"><span class="nav-icon">🚀</span> S8: Final Thoughts</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <div class="progress-ring-container">
+                <svg class="progress-ring" width="60" height="60">
+                    <circle class="progress-ring-bg" cx="30" cy="30" r="26" />
+                    <circle class="progress-ring-fill" id="overallProgressRing" cx="30" cy="30" r="26" />
+                </svg>
+                <span class="progress-ring-text" id="overallProgressText">0%</span>
+            </div>
+            <span class="progress-label">Overall Progress</span>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main id="mainContent">
+        <header id="topBar">
+            <button id="hamburger" class="hamburger">☰</button>
+            <h1 id="pageTitle">Dashboard</h1>
+            <div class="header-actions">
+                <span id="streakBadge" class="streak-badge" title="Study streak">🔥 0</span>
+            </div>
+        </header>
+        <div id="contentArea"></div>
+    </main>
+
+
+
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
