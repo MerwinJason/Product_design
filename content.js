@@ -142,14 +142,26 @@ const sessionContent = {
                 </div>`
             },
             {
-                title: "Opportunity Identification & Product Planning",
-                body: `<p>Opportunities come from markets, technology, regulations, or partners. The planning process:</p>
-                <ol style="margin-left:20px; color:var(--text-secondary);">
-                    <li>Identify Opportunities</li>
-                    <li>Evaluate and prioritize projects (Competitive strategy, Market Segmentation, Technological Trajectories, Platforms)</li>
-                    <li>Allocate resources and plan timing (Resource Allocation, Project Timing)</li>
-                    <li>Complete pre-project planning (Mission Statement)</li>
-                </ol>`
+                title: "Opportunity Identification & Development Horizons",
+                body: `<p>Opportunities come from markets, technology, regulations, or partners. They evaluate opportunities using the Horizon model:</p>
+                <ol style="margin-left:20px; color:var(--text-secondary); margin-bottom:12px;">
+                    <li><strong>Horizon 1 (Core):</strong> Existing products for existing markets. (e.g., Cost reduction, adding a new color option). 70-80% of teams work here.</li>
+                    <li><strong>Horizon 2 (Adjacent):</strong> Next-generation products or entering an adjacent market.</li>
+                    <li><strong>Horizon 3 (Transformational):</strong> Completely new category or completely new market (e.g., Space research like Chandrayaan, or inventing the first Swiggy/Zepto app).</li>
+                </ol>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: The 3 Horizons of Innovation
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        Think of a company like <em>Apple</em>:<br>
+                        <strong>Horizon 1:</strong> Releasing the iPhone 15 when they already have the iPhone 14. Just making it a bit faster. Extremely safe.<br>
+                        <strong>Horizon 2:</strong> Releasing the iPad for the first time. It uses similar tech to the iPhone, but targets a new 'tablet' market.<br>
+                        <strong>Horizon 3:</strong> Developing the Apple Vision Pro. A completely radically new piece of hardware for a market that barely exists yet. Extremely risky, but "push" driven!
+                    </p>
+                </div>
+                <p>The Planning Process involves filtering these opportunities like a <strong>tournament</strong> (64 ideas → 32 → 16 → 1 winner), evaluating based on tech leadership, customer focus, and cost.</p>`
             },
             {
                 title: "Four Types of Product Development Projects",
@@ -203,8 +215,14 @@ const sessionContent = {
                     <li>Establish relative importance.</li>
                     <li>Reflect on the results.</li>
                 </ol>
-                <div style="background:rgba(255,100,150,0.1); padding:12px; border-radius:8px; margin-top:12px;">
-                    <strong>Ethnographic Studies:</strong> Observing real users in their actual environment. High insight, but costly and time-consuming. Examples: Video, Photography, Interviews.
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: The "Jugaad" Factor in Ethnography
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        <strong>Think of it like this:</strong> Ethnographic studies are just watching real users in their natural habitat. But it's not just about how they use the product—it's about how they <em>misuse</em> it. In India, we call this <strong>Jugaad</strong>. For example, using a washing machine to churn bulk lassi, or using a tennis ball for a dog toy instead of tennis. Observing this real-world behavior uncovers deep, unexpressed needs that a standard questionnaire would never catch. Types of Ethnography include <strong>Field</strong> (on-site observation), <strong>Digital</strong> (tablet/community tracking), and <strong>Photo</strong> (capturing image logs of daily life).
+                    </p>
                 </div>`
             },
             {
@@ -220,24 +238,46 @@ const sessionContent = {
                         <tr><td>Reverse</td><td>Causes dissatisfaction when present.</td></tr>
                     </table>
                 </div>
-                <p style="margin-top:12px; font-size:13px; color:var(--text-secondary);"><strong>Note:</strong> Over time, Exciters become Expecters (e.g., WiFi in hotels).</p>`
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: Kano Model in the Real World
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        To easily understand the Kano Model, look at <strong>Netflix</strong> and <strong>Swiggy</strong>.<br><br>
+                        <strong>Netflix:</strong><br>
+                        • <em>Must-Be:</em> Stable streaming without buffering (If it buffers, you're furious. If it plays normally, you just consider it normal).<br>
+                        • <em>Performance (One-Dimensional):</em> Smart recommendations (The better the recommendations, the happier you are).<br>
+                        • <em>Delighter (Exciter):</em> Interactive episodes like "Bandersnatch" (You didn't ask for it, but when you got it, it blew your mind).<br><br>
+                        <strong>Swiggy / Zomato:</strong><br>
+                        • <em>Must-Be:</em> On-time delivery.<br>
+                        • <em>Performance:</em> Advanced regional food filters.<br>
+                        • <em>Delighter:</em> Getting a surprise Diwali sweet box with your order.<br><br>
+                        <em>Remember: Over time, today's Delighters ALWAYS become tomorrow's Must-Bes!</em>
+                    </p>
+                </div>`
             },
             {
-                title: "Kano Satisfaction Coefficients",
-                body: `<div style="background:rgba(255,100,150,0.1); border-left:4px solid var(--accent); padding:12px;">
-                    <p><strong>Extent of Satisfaction =</strong> (A + O) / (A + O + M + I)</p>
-                    <p><strong>Extent of Dissatisfaction =</strong> (O + M) / (A + O + M + I) * (-1)</p>
+                title: "Kano Satisfaction Formula & Quantification",
+                body: `<p>How do we actually put numbers to these feelings? We ask <strong>Functional</strong> and <strong>Dysfunctional</strong> questions in surveys.</p>
+                <ul>
+                    <li><strong>Functional Question:</strong> "If the skis have good grip on hard snow, how do you feel?"</li>
+                    <li><strong>Dysfunctional Question:</strong> "If the skis DO NOT have good grip, how do you feel?"</li>
+                </ul>
+                <p>Based on combinations of answers (Like, Must-be, Neutral, Live with, Dislike), we plot requirements on a grid to find out what category they fall into. Then we calculate indexes:</p>
+                <div style="background:rgba(255,100,150,0.1); border-left:4px solid var(--accent); padding:12px; margin-top:12px;">
+                    <p><strong>Customer Satisfaction Index (CSI) =</strong> (A + O) / (A + O + M + I)</p>
+                    <p><strong>Customer Dissatisfaction Index (CDI) =</strong> (O + M) / (A + O + M + I) * (-1)</p>
                     <p style="font-size:12px;">A = Attractive, O = One-dimensional (Performance), M = Must-be, I = Indifferent.</p>
                 </div>`
             },
             {
-                title: "Key Rules for Survey Construction",
+                title: "Key Rules for Survey Construction & AI Integration",
                 body: `<ul>
-                    <li>Do not lead the customer toward an answer.</li>
-                    <li>Include "Other" options in multiple choice.</li>
-                    <li>Always include open-ended questions.</li>
-                    <li>Keep to 15-30 minutes max.</li>
-                    <li>Needs should be expressed positively, stating WHAT the product does, avoiding 'must' and 'should'.</li>
+                    <li><strong>Survey Length:</strong> Keep to 6-10 minutes max, or attention spans drop.</li>
+                    <li><strong>Needs Statements:</strong> Must be expressed positively, stating WHAT the product does (attributes), avoiding the words 'must', 'should', or HOW it does it. Present tense only.</li>
+                    <li><strong>Close-ended vs Open-ended:</strong> Most questions should be close-ended to allow easy data aggregation (e.g., in a Kano survey).</li>
+                    <li><strong>Using AI Tools:</strong> Tools like Miro AI or custom prompt engineering (using the <em>5W1H Framework: Who, What, When, Where, Why, How</em>) can help aggregate raw data into needs. <em>Warning:</em> AI models often hallucinate technical numerical problems and lack real-time proprietary company data (NDAs), so they cannot completely replace human judgement.</li>
                 </ul>`
             },
             {
@@ -247,18 +287,18 @@ const sessionContent = {
             }
         ],
         flashcards: [
-            { front: "What are 'Expecter' needs in Kano?", back: "Must-have basic requirements. Do not increase satisfaction if present, but cause extreme anger if absent." },
-            { front: "What is an Ethnographic Study?", back: "Observing customers interacting with a product in their natural environment." },
-            { front: "Give an example of a One-Dimensional (Spoken) need.", back: "Battery life in a phone. The longer it is, the more satisfied the user is linearly." },
-            { front: "What is the risk of asking leading questions in surveys?", back: "It biases the raw data, masking True customer needs." },
-            { front: "What is a 'Reverse' requirement in Kano?", back: "A feature that causes dissatisfaction when present (e.g., overly complex software menus)." },
+            { front: "What are 'Expecter' (Must-Be) needs in Kano?", back: "Basic requirements like stable streaming on Netflix. Their absence causes extreme anger, but their presence doesn't increase satisfaction." },
+            { front: "What is an Ethnographic Study?", back: "Observing customers interacting with a product in their natural environment to spot unexpressed needs or 'Jugaad' misuses." },
+            { front: "Give an example of a One-Dimensional (Performance) need.", back: "Battery life in a phone. The longer it is, the more proportionally satisfied the user is." },
+            { front: "How do you calculate the Kano Customer Dissatisfaction Index?", back: "CDI = -1 * (O + M) / (A + O + M + I)" },
+            { front: "What is the 5W1H framework used for in Product Design AI?", back: "Crafting specific prompts: Who, What, When, Where, Why, and How." },
             { front: "Define Benchmarking.", back: "Comparing organizational processes and performance metrics to industry bests." },
-            { front: "What is Reverse Engineering?", back: "Deconstructing a competitor's product to extract design, architecture, and cost data." },
-            { front: "Why avoid the words 'must' and 'should' in need statements?", back: "Needs should state WHAT the product has to do, not set arbitrary rigid constraints." },
-            { front: "What happens to 'Exciter' features over time?", back: "They migrate down to become 'Must-haves' as the market adapts (e.g., power windows in cars)." },
-            { front: "What does M stand for in the Kano formula?", back: "Must-be (Expecters)." },
-            { front: "What does A stand for in the Kano formula?", back: "Attractive (Exciters)." },
-            { front: "What is an Indifferent feature?", back: "A feature the customer doesn't care about, and is unwilling to pay extra for." }
+            { front: "What is the danger of using AI for Ethnographic synthesis?", back: "AI can hallucinate complex technical nuances and may violate company Non-Disclosure Agreements (NDAs)." },
+            { front: "Why avoid the words 'must' and 'should' in need statements?", back: "Needs should objectively state WHAT the product has to do as an attribute in the present tense, without dictating constraints." },
+            { front: "What happens to 'Exciter' features over time?", back: "They migrate down to become 'Must-haves' as the market adapts (e.g., WiFi in a hotel)." },
+            { front: "How do Kano surveys quantify feelings?", back: "By asking paired questions: a Functional question (feature is present) and a Dysfunctional question (feature is absent)." },
+            { front: "What does A stand for in the Kano formula?", back: "Attractive (Exciters / Delighters)." },
+            { front: "What is an Indifferent feature?", back: "A feature the customer doesn't care about, and its presence or absence does not affect satisfaction." }
         ]
     },
 
@@ -288,14 +328,26 @@ const sessionContent = {
             },
             {
                 title: "Quality Function Deployment (QFD) & House of Quality",
-                body: `<p>QFD is a visual matrix method developed in Japan (1970s) to translate needs into specifications. The <strong>House of Quality (HoQ)</strong> is the core tool.</p>
+                body: `<p>QFD is a visual matrix method developed in Japan (1970s at Toyota) to translate qualitative customer needs into quantitative specifications. The <strong>House of Quality (HoQ)</strong> is the core tool.</p>
                 <ul style="margin-bottom:12px;">
-                    <li><strong>Left Wall:</strong> WHATs (Customer needs and importance weights)</li>
-                    <li><strong>Ceiling/Top:</strong> HOWs (Engineering characteristics/metrics)</li>
-                    <li><strong>Main Matrix:</strong> Relationships between WHATs and HOWs (Strong=9, Medium=3, Weak=1)</li>
-                    <li><strong>Roof:</strong> Correlation between different engineering metrics (exposing Trade-offs)</li>
-                    <li><strong>Basement/Bottom:</strong> Target values, competitive analysis, and calculated priority scores.</li>
-                </ul>`
+                    <li><strong>Left Wall (Room 1):</strong> WHATs (Voice of Customer / Needs) and their importance weights (usually 1-5 scale).</li>
+                    <li><strong>Right Wall (Room 2):</strong> Competitive Assessment. How you vs. Competitors score on the WHATs.</li>
+                    <li><strong>Ceiling/Top:</strong> HOWs (Engineering characteristics/metrics).</li>
+                    <li><strong>Main Matrix (Center):</strong> Relationships between WHATs and HOWs (Strong=9, Medium=3, Weak=1).</li>
+                    <li><strong>Roof:</strong> Co-relationships between different HOWs (exposing Trade-offs and Reinforcements).</li>
+                    <li><strong>Basement/Bottom:</strong> Target values, competitive technical analysis, and calculated priority weights (Sum of: What Importance × Relationship Score).</li>
+                </ul>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: House of Quality - Pressure Cooker Example
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        To understand how the 'Roof' works, think of designing a Pressure Cooker:<br><br>
+                        <strong>The Trade-Off (Negative Co-relationship):</strong> You want it to <em>Cook Fast</em> (The WHAT). So you increase the <em>Internal Cooking Pressure</em> (The HOW). But wait! Increasing the pressure puts insane stress on the <em>Rubber Sealing Ring</em> (Another HOW), increasing the risk of it bursting. This is a <strong>Trade-off</strong>: improving one metric degrades another. The HOQ roof exposes this conflict so you don't build a fast, but explosive, cooker.<br><br>
+                        <strong>The Reinforcement (Positive Co-relationship):</strong> If you change the <em>Material</em> to Aluminum instead of thick Steel, you increase the <em>Thermal Conductivity</em>. These two HOWs support each other positively. You get a lighter cooker that <em>also</em> cooks faster!
+                    </p>
+                </div>`
             },
             {
                 title: "Finalizing Specifications",
@@ -353,10 +405,21 @@ const sessionContent = {
             },
             {
                 title: "Brainstorming vs Brainwriting",
-                body: `<ul>
+                body: `<ul style="margin-bottom:12px;">
                     <li><strong>Brainstorming:</strong> Unstructured verbal idea dumping. Key rules: No judgment, encourage wild ideas, go for quantity. However, it can be dominated by loud voices.</li>
+                    <li><strong>Checklist Method (SCAMPER):</strong> A structured brainstorming approach: <strong>S</strong>ubstitute, <strong>C</strong>ombine, <strong>A</strong>dapt, <strong>M</strong>odify/Magnify/Minify, <strong>P</strong>ut to other use, <strong>E</strong>liminate, <strong>R</strong>earrange/Reverse.</li>
                     <li><strong>6-3-5 Brainwriting:</strong> Silent method. <strong>6</strong> people write <strong>3</strong> ideas in <strong>5</strong> minutes, pass paper, repeat. Reduces introversion barriers and prevents loud voices from dominating.</li>
-                </ul>`
+                </ul>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: SCAMPER & 6-3-5 in Action
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        <strong>SCAMPER Combine:</strong> Look at your smartphone. It <em>combined</em> a camera, GPS, calculator, clock, radio, and Yellow Pages into one device!<br><br>
+                        <strong>Why 6-3-5 is brilliant:</strong> In a regular group, the smartest or loudest person (Intellectual Block) dominates, and others fear judgment (Emotional Block). Because 6-3-5 is non-verbal, you just pass papers. Introverts can safely contribute, and you generate exactly 108 ideas (6x3x6 rounds) in 30 minutes!
+                    </p>
+                </div>`
             },
             {
                 title: "Visual Concept Generation",
@@ -404,22 +467,63 @@ const sessionContent = {
                 body: `<ul style="margin-bottom:12px;">
                     <li><strong>FAST Diagram (Top-Down):</strong> Function Analysis System Technique. Read left-to-right asking "HOW?". Read right-to-left asking "WHY?". Establishes critical logical paths.</li>
                     <li><strong>Subtract and Operate (Bottom-Up):</strong> Reverse-engineer an existing physical product. Remove one component, operate the device, note the failure, and deduce the component's function.</li>
-                </ul>`
+                </ul>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: The Iron Box FAST Diagram
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        Imagine you are designing an Iron Box. Your <strong>Higher-Order Function</strong> is "Iron Clothes".<br><br>
+                        <strong>HOW</strong> do we iron clothes? (Move Left to Right)<br>
+                        By heating the base (<strong>Basic Function</strong>).<br>
+                        <strong>HOW</strong> do we heat the base?<br>
+                        By converting electricity to heat (<strong>Secondary Required Function</strong>).<br><br>
+                        <strong>WHY</strong> do we convert electricity? (Move Right to Left)<br>
+                        To heat the base!<br><br>
+                        Don't forget the <strong>Unwanted Function</strong>: Heating the base causes the handle to get hot, so we must add an aesthetic/safety function to insulate the grip so you don't burn your hand. This logic chain builds the FAST diagram!
+                    </p>
+                </div>`
             },
             {
                 title: "Morphological Analysis",
                 body: `<p>A highly structured way to generate thousands of concepts. Break down the prime function into sub-functions (Y-axis), and list physical mechanisms to achieve each function (X-axis). A concept is drawn by picking one mechanism from each row.</p>
-                <p><em>Example:</em> "Convert Energy" can be Electric Motor, Gas Engine, or Human Pedal.</p>`
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: Mechanical Ventilation Unit Example
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        Suppose you are designing a Mechanical Ventilation Unit. You identify 4 sub-functions: <strong>(1) Send Signal</strong>, <strong>(2) Receive Signal</strong>, <strong>(3) Convert Signal</strong>, and <strong>(4) Open/Close Vent</strong>.<br><br>
+                        Now, list all known physical ways to achieve each sub-function:<br>
+                        • <strong>Send Signal:</strong> Wiring, radio transmitter, physical cable.<br>
+                        • <strong>Convert Signal:</strong> Pneumatic, hydraulic, electromagnetic.<br>
+                        • <strong>Open Vent:</strong> Gears, belts, impact plate.<br><br>
+                        By picking <em>one option from every row</em> (e.g., Radio Transmitter + Electromagnetic + Gears), you generate a totally new product concept bridging existing technologies!
+                    </p>
+                </div>`
             },
             {
                 title: "TRIZ (Theory of Inventive Problem Solving)",
-                body: `<p>Developed by Genrich Altshuller after analyzing thousands of patents. Premise: Someone has already solved your problem. TRIZ focuses on breaking <strong>Contradictions</strong> instead of accepting compromises.</p>
+                body: `<p>Developed by Genrich Altshuller after analyzing 40,000+ patents. Premise: Someone has already solved your problem. TRIZ focuses on breaking <strong>Contradictions</strong> instead of accepting compromises.</p>
                 <ul style="color:var(--text-secondary); font-size:14px;">
-                    <li><strong>39 Engineering Parameters:</strong> E.g., Weight, Volume, Speed.</li>
+                    <li><strong>39 Engineering Parameters:</strong> E.g., Weight of moving object, Strength, Speed.</li>
                     <li><strong>40 Inventive Principles:</strong> Universal problem solvers.</li>
-                    <li><em>Example Contradiction:</em> I want a coffee cup to be insulated (Parameter: Temperature), but I don't want it to be heavy (Parameter: Weight).</li>
-                    <li><em>TRIZ Suggestion:</em> Principle 1: Segmentation, or Principle 31: Porous Materials (Cardboard sleeve).</li>
-                </ul>`
+                </ul>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: Solving Real-World Contradictions
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        <strong>1. The Bulletproof Vest:</strong><br>
+                        <em>Contradiction:</em> It must have high <strong>Strength</strong> (Improving), but low <strong>Weight</strong> (Worsening).<br>
+                        <em>TRIZ Matrix Output:</em> Principle #40 (Composite Materials) and Principle #1 (Segmentation). Result: Kevlar vests with segmented ceramic plates!<br><br>
+                        <strong>2. The City Bus:</strong><br>
+                        <em>Contradiction:</em> It needs more passenger <strong>Capacity</strong> (Improving), but cannot increase its <strong>Width</strong> due to narrow roads (Worsening).<br>
+                        <em>TRIZ Matrix Output:</em> Principle #15 (Dynamics/Flexibility) and Principle #1 (Segmentation). Result: The articulated "Bendy" Bus that bends in the middle!
+                    </p>
+                </div>`
             }
         ],
         flashcards: [
@@ -460,7 +564,19 @@ const sessionContent = {
             },
             {
                 title: "Concept Scoring (Weighted Decision Matrix)",
-                body: `<p>After Pugh screening, the surviving concepts move to Concept Scoring. Criteria are assigned <strong>Weights (percentages)</strong> based on importance. Concepts are rated on a 1-5 scalar grid, multiplied by the weight, and summed for a high-fidelity final score.</p>`
+                body: `<p>After Pugh screening, the surviving concepts move to Concept Scoring. Criteria are assigned <strong>Weights (percentages)</strong> based on importance. Concepts are rated on a 1-5 scalar grid, multiplied by the weight, and summed for a high-fidelity final score.</p>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: The SUV Decision Matrix
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        Imagine choosing an SUV design. You have three main criteria: <strong>Fuel (25%), Comfort (40%), and Utility (35%)</strong>.<br><br>
+                        You can break these down further: "Fuel" becomes <em>Mileage (70% of 25%)</em> and <em>Range (30% of 25%)</em>.<br>
+                        If Concept A has a Mileage score of 8/10, its weighted score is <code>8 × (0.25 × 0.70) = 1.4</code>.<br><br>
+                        By summing these weighted scores across all criteria, you get a highly precise, math-backed decision rather than just "guessing" which SUV is best based on raw counts of pros and cons.
+                    </p>
+                </div>`
             },
             {
                 title: "Analytic Hierarchy Process (AHP)",
@@ -470,7 +586,20 @@ const sessionContent = {
                     <li>Normalize the matrix (divide by column sums).</li>
                     <li>Calculate priority vector averages (the weights).</li>
                     <li>Calculate Consistency Ratio (CR). If CR &gt; 0.10, human judgments are too contradictory and must be re-evaluated.</li>
-                </ol>`
+                </ol>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: The Mobile Phone AHP Example
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        Think of how <em>Amazon</em> compares phones. If you are comparing <strong>Price, Battery, Camera, and Looks</strong>, how do you decide the exact weight percentage of each?<br><br>
+                        AHP forces you to compare them <em>in pairs</em>:<br>
+                        1. Is <strong>Price</strong> more important than <strong>Battery</strong>? If yes, strongly (Score: 7).<br>
+                        2. This means Battery vs Price is automatically its reciprocal (Score: 1/7).<br><br>
+                        By building a matrix of all these pairs and doing some linear algebra (normalization), AHP spits out the perfect mathematical weight percentages for you to use in your Concept Scoring!
+                    </p>
+                </div>`
             },
             {
                 title: "Concept Testing",
@@ -526,7 +655,18 @@ const sessionContent = {
                     <li><strong>Slot-Modular:</strong> Interfaces differ. Chunks cannot be swapped (e.g., Car radio vs Speedometer slots).</li>
                     <li><strong>Bus-Modular:</strong> All chunks connect to a common bus via the same interface type (e.g., PCIe slots on a motherboard).</li>
                     <li><strong>Sectional-Modular:</strong> All interfaces are identical. Chunks connect to each other infinitely (e.g., LEGO bricks, piping systems).</li>
-                </ul>`
+                </ul>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: Visualizing Modularity
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        <strong>Slot:</strong> Think of <em>Bosch power tools</em>. A single battery pack slots perfectly into a drill, a grinder, or a saw. You can't put a saw blade in the battery slot though!<br><br>
+                        <strong>Bus:</strong> Think of a <em>Goods Train</em> or a <em>Computer Motherboard</em>. There is a main bus (the track/board) and you can keep adding wagons (RAM/GPUs) to increase overall capacity.<br><br>
+                        <strong>Sectional:</strong> Think of a <em>Sectional Sofa</em> or <em>LEGO blocks</em>. There is no main "bus" or "base." You just snap identical interfaces together to build whatever shape you want.
+                    </p>
+                </div>`
             },
             {
                 title: "Architecture Design Process",
@@ -540,7 +680,18 @@ const sessionContent = {
             {
                 title: "Platform Planning & Delayed Differentiation",
                 body: `<p><strong>Platform Planning:</strong> A product family shares a common platform (core chunks) while varying specific modular chunks to target different market segments. Saves massive R&D costs.</p>
-                <p><strong>Delayed Differentiation (Postponement):</strong> Designing a supply chain and architecture strictly so distinguishing market features can be added at the very end of the line (e.g., painting a car at the final step, loading foreign language software right before shipping).</p>`
+                <p><strong>Delayed Differentiation (Postponement):</strong> Designing a supply chain and architecture strictly so distinguishing market features can be added at the very end of the line (e.g., painting a car at the final step, loading foreign language software right before shipping).</p>
+                <div class="feynman-note" style="background:rgba(168, 85, 247, 0.1); border-left:4px solid var(--accent); padding:16px; border-radius:8px; margin-top:16px; margin-bottom:16px;">
+                    <h4 style="color:var(--accent); margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m-7-7h14"></path></svg>
+                        Feynman Note: The Postponement Trick
+                    </h4>
+                    <p style="font-size:14px; line-height:1.6; margin:0;">
+                        Imagine you make sweaters (e.g., <em>United Colors of Benetton</em>). Do you knit 100 red, 100 blue, and 100 green sweaters? What if red doesn't sell? You have wasted inventory.<br><br>
+                        Instead, you use <strong>Delayed Differentiation</strong>: You knit 300 <em>white</em> sweaters. You wait to see what customers buy. If everyone wants red, you rapidly dye them red at the very end of the supply chain!<br><br>
+                        <em>Asian Paints</em> does the same: They ship white base paint to stores. The store mixes the exact color the customer wants on the spot. This drastically reduces inventory costs while maintaining infinite variety.
+                    </p>
+                </div>`
             }
         ],
         flashcards: [
